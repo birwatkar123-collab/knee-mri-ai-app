@@ -1,3 +1,15 @@
+---
+title: Knee MRI AI App
+emoji: 🦵
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: 1.64.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # Knee MRI Abnormality Detection App
 
 Prototype Streamlit app for testing knee MRI abnormality detection from DICOM studies.
