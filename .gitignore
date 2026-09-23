@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# Large model artifacts
+models/
+models/**/*.pt
+models/**/*.pth
+models/**/*.bin
+models/**/*.safetensors
+models/**/*.ckpt
+
+# Medical data / samples
+sample_dicoms/
+*.dcm
+*.dicom
+*.zip
+
+# Downloaded caches and outputs
+external/
+kaggle_outputs/
+external/pillar-breastmri-hf/model.safetensors
+external/**/__pycache__/
+.streamlit/secrets.toml
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
