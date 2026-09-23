@@ -3,9 +3,7 @@ title: Knee MRI AI App
 emoji: 🦵
 colorFrom: blue
 colorTo: green
-sdk: streamlit
-sdk_version: 1.64.0
-app_file: app.py
+sdk: docker
 pinned: false
 license: mit
 ---
